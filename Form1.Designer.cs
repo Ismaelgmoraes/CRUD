@@ -39,6 +39,8 @@
             txtLocalizar = new TextBox();
             btnConsultar = new Button();
             label4 = new Label();
+            btnEditar = new Button();
+            btnExcluir = new Button();
             SuspendLayout();
             // 
             // label1
@@ -72,7 +74,7 @@
             // 
             txtNome.Location = new Point(12, 27);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(191, 23);
+            txtNome.Size = new Size(339, 23);
             txtNome.TabIndex = 3;
             // 
             // txtTelefone
@@ -86,15 +88,15 @@
             // 
             txtEmail.Location = new Point(12, 115);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(191, 23);
+            txtEmail.Size = new Size(339, 23);
             txtEmail.TabIndex = 5;
             // 
             // btnSalvar
             // 
             btnSalvar.ImageAlign = ContentAlignment.BottomCenter;
-            btnSalvar.Location = new Point(12, 169);
+            btnSalvar.Location = new Point(12, 341);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(191, 23);
+            btnSalvar.Size = new Size(114, 23);
             btnSalvar.TabIndex = 6;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
@@ -102,24 +104,25 @@
             // 
             // lstContatos
             // 
-            lstContatos.Location = new Point(209, 71);
+            lstContatos.Location = new Point(373, 71);
             lstContatos.Name = "lstContatos";
-            lstContatos.Size = new Size(450, 121);
+            lstContatos.Size = new Size(450, 293);
             lstContatos.TabIndex = 7;
             lstContatos.UseCompatibleStateImageBehavior = false;
+            lstContatos.SelectedIndexChanged += lstContatos_SelectedIndexChanged_1;
             // 
             // txtLocalizar
             // 
-            txtLocalizar.Location = new Point(209, 27);
+            txtLocalizar.Location = new Point(373, 28);
             txtLocalizar.Name = "txtLocalizar";
-            txtLocalizar.Size = new Size(292, 23);
+            txtLocalizar.Size = new Size(331, 23);
             txtLocalizar.TabIndex = 8;
             // 
             // btnConsultar
             // 
-            btnConsultar.Location = new Point(507, 26);
+            btnConsultar.Location = new Point(710, 27);
             btnConsultar.Name = "btnConsultar";
-            btnConsultar.Size = new Size(152, 23);
+            btnConsultar.Size = new Size(113, 23);
             btnConsultar.TabIndex = 9;
             btnConsultar.Text = "Consultar";
             btnConsultar.UseVisualStyleBackColor = true;
@@ -128,17 +131,39 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(209, 9);
+            label4.Location = new Point(373, 9);
             label4.Name = "label4";
             label4.Size = new Size(56, 15);
             label4.TabIndex = 10;
             label4.Text = "Localizar:";
             // 
+            // btnEditar
+            // 
+            btnEditar.Location = new Point(132, 341);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(111, 23);
+            btnEditar.TabIndex = 11;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
+            // 
+            // btnExcluir
+            // 
+            btnExcluir.Location = new Point(249, 341);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(102, 23);
+            btnExcluir.TabIndex = 12;
+            btnExcluir.Text = "Excluir";
+            btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(671, 225);
+            ClientSize = new Size(847, 376);
+            Controls.Add(btnExcluir);
+            Controls.Add(btnEditar);
             Controls.Add(label4);
             Controls.Add(btnConsultar);
             Controls.Add(txtLocalizar);
@@ -171,5 +196,7 @@
         private TextBox txtLocalizar;
         private Button btnConsultar;
         private Label label4;
+        private Button btnEditar;
+        private Button btnExcluir;
     }
 }

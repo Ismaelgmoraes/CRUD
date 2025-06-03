@@ -66,3 +66,4 @@ D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\bin\Debug\net8.0-windows\runtimes\bro
 D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\CRUD.csproj.Up2Date
 D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\CRUD.genruntimeconfig.cache
 D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\ref\CRUD.dll
+D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\CRUD.sourcelink.json
