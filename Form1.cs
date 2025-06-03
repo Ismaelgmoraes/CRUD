@@ -142,10 +142,12 @@ namespace CRUD
                 //Define o comando SQL para buscar contatos com base no nome ou email
                 cmd.CommandText = "SELECT * FROM Contatos WHERE nome LIKE @q OR email LIKE @q ";
 
-                cmd.Prepare();
+                
 
                 //Adiciona o parâmetro @q com o valor do texto digitado no campo txtLocalizar
                 cmd.Parameters.AddWithValue("@q", "%" + txtLocalizar.Text + "%");
+
+                cmd.Prepare();
 
                 //Executa o comando e obtém os resultados
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -159,10 +161,10 @@ namespace CRUD
                     //Cria um vetor de strings para armazenar os dados do contato
                     string[] row =
                     {
-                        reader.GetString(0),
-                        reader.GetString(1),
-                        reader.GetString(2),
-                        reader.GetString(3),
+                        reader[0].ToString(),
+                        reader[1].ToString(),
+                        reader[2].ToString(),
+                        reader[3].ToString()
                     };
 
                     //Cria um novo ListViewItem com os dados do contato
