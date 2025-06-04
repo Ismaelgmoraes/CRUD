@@ -83,6 +83,7 @@
             txtTelefone.Name = "txtTelefone";
             txtTelefone.Size = new Size(191, 23);
             txtTelefone.TabIndex = 4;
+            txtTelefone.KeyPress += txtTelefone_KeyPress;
             // 
             // txtEmail
             // 

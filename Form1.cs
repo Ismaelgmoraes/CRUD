@@ -29,6 +29,8 @@ namespace CRUD
         {
             // Inicializa os componentes do list
             InitializeComponent();
+            // ### LINHA ADICIONADA PARA CENTRALIZAR O FORMULÁRIO ###
+            this.StartPosition = FormStartPosition.CenterScreen;
             lstContatos.View = View.Details;
             lstContatos.LabelEdit = true;
             lstContatos.AllowColumnReorder = true;
@@ -142,7 +144,7 @@ namespace CRUD
                 //Define o comando SQL para buscar contatos com base no nome ou email
                 cmd.CommandText = "SELECT * FROM Contatos WHERE nome LIKE @q OR email LIKE @q ";
 
-                
+
 
                 //Adiciona o parâmetro @q com o valor do texto digitado no campo txtLocalizar
                 cmd.Parameters.AddWithValue("@q", "%" + txtLocalizar.Text + "%");
@@ -326,6 +328,17 @@ namespace CRUD
 
                 // Habilita o botão de editar, pois um contato foi selecionado
                 btnEditar.Enabled = true;
+            }
+        }
+
+        private void txtTelefone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verifica se a tecla pressionada não é um controle (como Backspace)
+            // e não é um dígito.
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                // Se não for um número nem um controle, impede a entrada do caractere
+                e.Handled = true;
             }
         }
     }

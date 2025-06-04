@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07ABB0EB-814B-3D6F-88EC-06C8F9B10172}|CRUD.csproj|d:\\users\\1032761\\desktop\\crud_geral\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ABB0EB-814B-3D6F-88EC-06C8F9B10172}|CRUD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ABB0EB-814B-3D6F-88EC-06C8F9B10172}|CRUD.csproj|D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07ABB0EB-814B-3D6F-88EC-06C8F9B10172}|CRUD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07ABB0EB-814B-3D6F-88EC-06C8F9B10172}|CRUD.csproj|d:\\users\\1032761\\desktop\\crud_geral\\crud\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07ABB0EB-814B-3D6F-88EC-06C8F9B10172}|CRUD.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 234,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:26:57.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:58:19.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\Users\\1032761\\Desktop\\CRUD_GERAL\\CRUD\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:58:13.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
