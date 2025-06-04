@@ -67,3 +67,39 @@ D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\CRUD.csproj.
 D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\CRUD.genruntimeconfig.cache
 D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\ref\CRUD.dll
 D:\Users\750233\Downloads\CRUD 1\CRUD\CRUD\obj\Debug\net8.0-windows\CRUD.sourcelink.json
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\CRUD.exe
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\CRUD.deps.json
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\CRUD.runtimeconfig.json
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\CRUD.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\CRUD.pdb
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.csproj.AssemblyReference.cache
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.Form1.resources
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.csproj.GenerateResource.cache
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.AssemblyInfoInputs.cache
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.AssemblyInfo.cs
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.csproj.CoreCompileInputs.cache
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.sourcelink.json
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.csproj.Up2Date
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\refint\CRUD.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.pdb
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.genruntimeconfig.cache
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\ref\CRUD.dll
+D:\Users\1034820\Desktop\Nova pasta\atividade do CROOD\CRUD\obj\Debug\net8.0-windows\CRUD.Properties.Resources.resources

@@ -40,7 +40,7 @@ namespace CRUD
             lstContatos.Columns.Add("Nome", 150, HorizontalAlignment.Left);
             lstContatos.Columns.Add("E-mail", 150, HorizontalAlignment.Left);
             lstContatos.Columns.Add("Telefone", 150, HorizontalAlignment.Left);
-            btnEditar.Enabled = false;
+            btnLimpar.Enabled = false;
 
             // Evento que carrega os contatos do banco de dados ao iniciar o formulário
             CarregarContatos();
@@ -79,9 +79,7 @@ namespace CRUD
                     cmd.Prepare();
                     cmd.ExecuteNonQuery();
 
-                    MessageBox.Show("Contato Inserido com Sucesso!",
-                                    "Sucesso!", MessageBoxButtons.OK,
-                                    MessageBoxIcon.Information);
+                  
 
                 }
                 else
@@ -108,6 +106,12 @@ namespace CRUD
                 }
                 // Evento que carrega os contatos do banco de dados ao iniciar o formulário 
                 CarregarContatos();
+                if (id_contato_selecionado == null)
+                {
+                    MessageBox.Show("Contato Inserido com Sucesso!",
+                                    "Sucesso!", MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+                }
             }
             catch (Exception ex)
             {
@@ -243,7 +247,7 @@ namespace CRUD
 
             txtNome.Focus();
 
-            btnEditar.Enabled = false;
+            btnLimpar.Enabled = false;
         }
 
         // Evento do botão Excluir, que é acionado quando o usuário clica
@@ -278,13 +282,16 @@ namespace CRUD
                     cmd.Prepare();
                     cmd.ExecuteNonQuery();
 
-                    MessageBox.Show("Contato excluído com sucesso!",
-                                    "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                     CarregarContatos();
                     lstContatos.Refresh();
                     zerar_formulario();
+
+MessageBox.Show("Contato excluído com sucesso!",
+                                    "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 }
+
+
                 catch (MySqlException ex)
                 {
                     MessageBox.Show("Erro " + ex.Number + " ocorreu: " + ex.Message,
@@ -325,7 +332,7 @@ namespace CRUD
                 txtTelefone.Text = item.SubItems[3].Text;
 
                 // Habilita o botão de editar, pois um contato foi selecionado
-                btnEditar.Enabled = true;
+                btnLimpar.Enabled = true;
             }
         }
     }

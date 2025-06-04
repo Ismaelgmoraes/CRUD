@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -39,7 +40,7 @@
             txtLocalizar = new TextBox();
             btnConsultar = new Button();
             label4 = new Label();
-            btnEditar = new Button();
+            btnLimpar = new Button();
             btnExcluir = new Button();
             SuspendLayout();
             // 
@@ -93,12 +94,11 @@
             // 
             // btnSalvar
             // 
-            btnSalvar.ImageAlign = ContentAlignment.BottomCenter;
-            btnSalvar.Location = new Point(12, 341);
+            btnSalvar.Image = (Image)resources.GetObject("btnSalvar.Image");
+            btnSalvar.Location = new Point(12, 319);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(114, 23);
+            btnSalvar.Size = new Size(72, 45);
             btnSalvar.TabIndex = 6;
-            btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
             btnSalvar.Click += btnSalvar_Click;
             // 
@@ -115,16 +115,16 @@
             // 
             txtLocalizar.Location = new Point(373, 28);
             txtLocalizar.Name = "txtLocalizar";
-            txtLocalizar.Size = new Size(331, 23);
+            txtLocalizar.Size = new Size(373, 23);
             txtLocalizar.TabIndex = 8;
             // 
             // btnConsultar
             // 
-            btnConsultar.Location = new Point(710, 27);
+            btnConsultar.Image = (Image)resources.GetObject("btnConsultar.Image");
+            btnConsultar.Location = new Point(752, 27);
             btnConsultar.Name = "btnConsultar";
-            btnConsultar.Size = new Size(113, 23);
+            btnConsultar.Size = new Size(71, 41);
             btnConsultar.TabIndex = 9;
-            btnConsultar.Text = "Consultar";
             btnConsultar.UseVisualStyleBackColor = true;
             btnConsultar.Click += btnConsultar_Click;
             // 
@@ -137,23 +137,23 @@
             label4.TabIndex = 10;
             label4.Text = "Localizar:";
             // 
-            // btnEditar
+            // btnLimpar
             // 
-            btnEditar.Location = new Point(132, 341);
-            btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(111, 23);
-            btnEditar.TabIndex = 11;
-            btnEditar.Text = "Editar";
-            btnEditar.UseVisualStyleBackColor = true;
-            btnEditar.Click += btnEditar_Click;
+            btnLimpar.Image = (Image)resources.GetObject("btnLimpar.Image");
+            btnLimpar.Location = new Point(141, 319);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new Size(72, 45);
+            btnLimpar.TabIndex = 11;
+            btnLimpar.UseVisualStyleBackColor = true;
+            btnLimpar.Click += btnEditar_Click;
             // 
             // btnExcluir
             // 
-            btnExcluir.Location = new Point(249, 341);
+            btnExcluir.Image = (Image)resources.GetObject("btnExcluir.Image");
+            btnExcluir.Location = new Point(267, 319);
             btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(102, 23);
+            btnExcluir.Size = new Size(72, 45);
             btnExcluir.TabIndex = 12;
-            btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
             btnExcluir.Click += btnExcluir_Click;
             // 
@@ -163,7 +163,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(847, 376);
             Controls.Add(btnExcluir);
-            Controls.Add(btnEditar);
+            Controls.Add(btnLimpar);
             Controls.Add(label4);
             Controls.Add(btnConsultar);
             Controls.Add(txtLocalizar);
@@ -175,6 +175,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";
@@ -196,7 +197,7 @@
         private TextBox txtLocalizar;
         private Button btnConsultar;
         private Label label4;
-        private Button btnEditar;
+        private Button btnLimpar;
         private Button btnExcluir;
     }
 }
