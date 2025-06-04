@@ -1,0 +1,14 @@
+.vs/
+*.user
+*.suo
+
+# Build
+bim/
+obj/
+*.dll
+*.pdb
+
+# Outros arquivos gerados
+*.cache
+*.log
+*.db
